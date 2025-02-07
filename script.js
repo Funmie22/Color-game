@@ -39,7 +39,7 @@ function checkGuess(selectedColor) {
     if (selectedColor === targetColor) {
         document.getElementById("gameStatus").textContent = "Correct! 🎉";
         score++;
-        triggerCelebration(); // Trigger confetti animation
+        triggerCelebration(); 
     } else {
         document.getElementById("gameStatus").textContent = "Wrong! Try again.";
     }
